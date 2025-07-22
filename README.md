@@ -56,6 +56,20 @@
 
 ---
 
+## 🎬 Demo Video
+
+Check out a quick demo of TASK in action:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=URlCIqp_A3o" target="_blank">
+    <img src="https://img.youtube.com/vi/URlCIqp_A3o/hqdefault.jpg" alt="TASK Demo Video" width="480" style="border-radius: 12px; box-shadow: 0 2px 8px #0002;"/>
+  </a>
+</p>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=URlCIqp_A3o)
+
+---
+
 ## Theme & Language Support
 
 - **Dark & Light Themes:**
