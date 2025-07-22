@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.ocean {
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
+    repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+
+.cursor {
+  font-family: "cairo";
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid black;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.cursor[dir="rtl"] {
+  border-right: none;
+  border-left: 2px solid black;
+}
+@media (min-width: 600px) {
+  .cursor {
+    font-size: 25px;
+  }
+}
+.typewriter-animation {
+  animation: typewriter 8s steps(50) 1s infinite normal both,
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blinkingCursor {
+  from {
+    border-right-color: black;
+    border-left-color: black;
+  }
+  to {
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+}
