@@ -16,12 +16,24 @@
 
 <div align="center">
 
-<a href="https://react.dev/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50"/></a>
-<a href="https://laravel.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg" alt="Laravel" width="50"/></a>
-<a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="50"/></a>
-<a href="https://mui.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="MUI" width="50"/></a>
-<a href="https://axios-http.com/" target="_blank"><img src="https://axios-http.com/assets/logo.svg" alt="Axios" width="50"/></a>
-<a href="https://redux.js.org/" target="_blank"><img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux" width="50"/></a>
+<a href="https://react.dev/" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="50"/>
+</a>
+<a href="https://laravel.com/" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" width="50"/>
+</a>
+<a href="https://www.mysql.com/" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" width="50"/>
+</a>
+<a href="https://mui.com/" target="_blank">
+  <img src="https://raw.githubusercontent.com/mui/material-ui/master/docs/public/static/logo.svg" alt="MUI" width="50"/>
+</a>
+<a href="https://axios-http.com/" target="_blank">
+  <img src="https://axios-http.com/assets/logo.svg" alt="Axios" width="50"/>
+</a>
+<a href="https://redux.js.org/" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" alt="Redux" width="50"/>
+</a>
 
 </div>
 
